@@ -65,7 +65,13 @@ $ vim ~/.bash_profile
 以下を末尾に記載して保存  
 
 ```
-export PYTHONPATH="~/GrovePi/Software/Python:$PYTHONPATH"
+export PYTHONPATH="/home/pi/GrovePi/Software/Python:$PYTHONPATH"
+```
+
+上記実行後に以下のコマンドを実施
+
+```
+$ source ~/.bash_profile
 ```
 
 ## CommitBeltのダウンロード
@@ -74,7 +80,7 @@ Raspberry Pi上の任意のディレクトリで以下を実行します。
 
 `$ git clone https://github.com/iotfes/CommitBelt`
 
-上記コマンドの結果、 **commitbelt** ディレクトリができていれば成功。
+上記コマンドの結果、 **CommitBelt** ディレクトリができていれば成功。
 
 ## Author
 
